@@ -44,6 +44,3 @@ To view the project locally on your machine:
    ```
    Then visit `http://localhost:8000` in your browser.
 
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
