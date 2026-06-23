@@ -32,11 +32,11 @@ To view the project locally on your machine:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Jishnu-JSK/your-repo-name.git
+   git clone https://github.com/Jishnu-JSK/portfolio.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd your-repo-name
+   cd portfolio
    ```
 3. Open `index.html` in your preferred web browser, or use a local development server like VS Code's Live Server extension, or Python's built-in HTTP server:
    ```bash
