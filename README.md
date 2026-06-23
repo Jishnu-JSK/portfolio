@@ -4,7 +4,7 @@ A clean, minimalist, developer-focused personal portfolio website built with a s
 
 ## 🚀 Live Demo
 
-[Link to your live website - e.g., https://jishnu-jsk.github.io/portfolio]
+https://jishnu-jsk.github.io/portfolio/
 
 ## 🛠️ Built With
 
