@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jishnu Suresh | Developer & AI Enthusiast</title>
+    <meta name="description"
+        content="Portfolio of Jishnu Suresh, BTech Data Science/Computer Science student specializing in backend systems, database migrations, and AI/ML development.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background Overlay Vignette -->
+    <div class="bg-overlay"></div>
+
+    <!-- Sticky Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="nav-logo">
+                JISHNU <span class="slash">//</span> 104
+            </a>
+
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Navigation Menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about" class="nav-link">.about()</a></li>
+                <li><a href="#skills" class="nav-link">.skills()</a></li>
+                <li><a href="#projects" class="nav-link">.projects()</a></li>
+                <li><a href="#experience" class="nav-link">.experience()</a></li>
+                <li><a href="#education" class="nav-link">.education()</a></li>
+                <li><a href="#contact" class="nav-link">.contact()</a></li>
+                <li>
+                    <a href="resume_placeholder.pdf" class="btn btn-secondary"
+                        style="padding: 0.4rem 0.8rem; font-size: 0.75rem;" download>
+                        Resume.pdf
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content reveal">
+                    <div class="mono-tag hero-pretitle">SYSTEM: ACTIVE // STACK INITIALIZED</div>
+                    <h1 class="hero-name">Jishnu Suresh</h1>
+                    <div class="hero-headline">BTech Data Science Student | Developer | AI & Backend Enthusiast</div>
+                    <p class="hero-description">
+                        I enjoy building practical software, working with data structures, and solving engineering
+                        problems through code.
+                        My focus lies in backend development, database systems, AI/ML pipelines, and systems automation.
+                        I believe in building tools that are efficient, secure, and technically solid.
+                    </p>
+                    <div class="btn-group">
+                        <a href="#projects" class="btn btn-primary">
+                            View Projects
+                            <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                        <a href="https://github.com/Jishnu-JSK" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-secondary">
+                            <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                </path>
+                            </svg>
+                            GitHub
+                        </a>
+                    </div>
+
+                    <!-- Currently Exploring Status -->
+                    <div class="status-bar">
+                        <div class="status-dot-container">
+                            <div class="status-dot"></div>
+                            <div class="status-pulse"></div>
+                        </div>
+                        <span class="status-text">
+                            STATUS: <span class="status-highlight">Exploring systems programming in Rust & migration
+                                pipeline optimization.</span>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- README.md Profile Panel -->
+                <div class="hero-visual reveal" style="transition-delay: 0.2s;">
+                    <div class="code-window readme-panel">
+                        <div class="code-header">
+                            <div class="code-dots">
+                                <div class="code-dot"></div>
+                                <div class="code-dot"></div>
+                                <div class="code-dot"></div>
+                            </div>
+                            <div class="code-title">README.md</div>
+                            <div class="mono-tag" style="font-size: 0.65rem;">UTF-8</div>
+                        </div>
+                        <div class="readme-body">
+                            <!-- Header -->
+                            <div class="readme-heading-1"># Jishnu Suresh</div>
+                            <div class="readme-subtitle">BTech Data Science · Developer · AI & Backend Enthusiast</div>
+
+                            <div class="readme-intro">
+                                Building practical software, backend systems, database tools, and AI-oriented projects.
+                                Focused on clean engineering, useful products, and continuous skill growth.
+                            </div>
+
+                            <div class="readme-divider"></div>
+
+                            <!-- /now -->
+                            <div class="readme-heading-2">## /now</div>
+                            <ul class="readme-list">
+                                <li>Building SQL migration and utility-focused software</li>
+                                <li>Exploring backend systems, AI/ML pipelines, and automation</li>
+                                <li>Improving problem solving and systems thinking</li>
+                                <li>Learning Rust and sharpening low-level fundamentals</li>
+                            </ul>
+
+                            <div class="readme-divider"></div>
+
+                            <!-- /stack -->
+                            <div class="readme-heading-2">## /stack</div>
+                            <div class="readme-tags">
+                                <span>Python</span><span>SQL</span><span>Flask</span><span>PostgreSQL</span><span>MySQL</span><span>Java</span><span>Rust</span><span>Pandas</span><span>Git</span>
+                            </div>
+
+                            <div class="readme-divider"></div>
+
+                            <!-- /featured_builds -->
+                            <div class="readme-heading-2">## /featured_builds</div>
+                            <div class="readme-builds">
+                                <div class="readme-build-row">
+                                    <span class="readme-build-marker">▸</span>
+                                    <span>SQL Database Migration Tool</span>
+                                </div>
+                                <div class="readme-build-row">
+                                    <span class="readme-build-marker">▸</span>
+                                    <span>College Bus Time Management System</span>
+                                </div>
+                                <div class="readme-build-row">
+                                    <span class="readme-build-marker">▸</span>
+                                    <span>Nocturne — Russian Vocabulary Explorer</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>About Me</h2>
+                <p>Understanding systems from the database layer to user interfaces.</p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p>
+                        I am currently pursuing my BTech degree in Computer Science / Data Science at KTU (Kerala
+                        Technological University). My academic path combines core computational principles with data
+                        engineering methodologies.
+                    </p>
+                    <p>
+                        Rather than analyzing theory alone, I focus on building functional systems. I am deeply
+                        interested in database design, performance engineering, automation pipelines, and AI/ML
+                        integrations. I enjoy studying how systems behave under high workloads and finding ways to
+                        refactor them for efficiency.
+                    </p>
+                    <p>
+                        Outside of class, I spend my time exploring documentation, refining my command-line environment,
+                        and creating developer tools that help solve real-world logic bottlenecks. I am currently
+                        seeking internships, freelance projects, and software roles.
+                    </p>
+                </div>
+
+                <div class="about-profile reveal" style="transition-delay: 0.2s;">
+                    <div class="about-profile-card">
+                        <div class="profile-meta-title">JISHNU_PROFILE.JSON</div>
+                        <ul class="profile-meta-list">
+                            <li class="profile-meta-item">
+                                <span class="profile-meta-key">academic_degree</span>
+                                <span class="profile-meta-value">BTech Data Science / CS</span>
+                            </li>
+                            <li class="profile-meta-item">
+                                <span class="profile-meta-key">institution</span>
+                                <span class="profile-meta-value">St Thomas College of Engineering
+                                    & Technology, Kannur</span>
+                            </li>
+                            <li class="profile-meta-item">
+                                <span class="profile-meta-key">preferred_stack</span>
+                                <span class="profile-meta-value">Python / SQL / C</span>
+                            </li>
+                            <li class="profile-meta-item">
+                                <span class="profile-meta-key">specialization</span>
+                                <span class="profile-meta-value">Backend & Data Systems</span>
+                            </li>
+                            <li class="profile-meta-item">
+                                <span class="profile-meta-key">engineering_focus</span>
+                                <span class="profile-meta-value">Efficiency & Utility</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Skills & Technologies</h2>
+                <p>My toolset for building backend services, data tools, and systems automation.</p>
+            </div>
+
+            <div class="skills-grid reveal">
+                <!-- Programming Languages -->
+                <div class="skills-category">
+                    <h3>Languages <span>[01]</span></h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">Rust</span>
+                        <span class="skill-tag">Bash</span>
+                    </div>
+                </div>
+
+                <!-- Backend / Web App Development -->
+                <div class="skills-category">
+                    <h3>Backend / Web <span>[02]</span></h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">REST APIs</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">JWT Auth</span>
+                        <span class="skill-tag">SQLAlchemy</span>
+                    </div>
+                </div>
+
+                <!-- Databases -->
+                <div class="skills-category">
+                    <h3>Databases <span>[03]</span></h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">SQLite</span>
+                    </div>
+                </div>
+
+                <!-- Data / ML / Analytics -->
+                <div class="skills-category">
+                    <h3>Data / ML <span>[04]</span></h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">Scikit-learn</span>
+                    </div>
+                </div>
+
+                <!-- Tools & Platforms -->
+                <div class="skills-category">
+                    <h3>Tools & Env <span>[05]</span></h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Jupyter</span>
+                        <span class="skill-tag">MySQL Workbench</span>
+                        <span class="skill-tag">DataGrip</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Featured Projects</h2>
+                <p>Functional programs and software utilities engineered to address database and workflow challenges.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1: Database Migration Tool -->
+                <article class="project-card reveal">
+                    <div class="project-info">
+                        <div class="project-featured">MAIN FEATURED PROJECT</div>
+                        <h3 class="project-title">SQL Database Migration Tool</h3>
+                        <p class="project-desc">
+                            A developer utility built to automate schemas and data migration between SQL servers.
+                            It resolves core SQL dialect conversion bottlenecks, targeting MySQL-to-PostgreSQL migration
+                            paths.
+                            It enables users to ingest schemas and raw dump payloads, preprocess data structures using
+                            Pandas, map field configurations, and generate fully compatible outputs for the target
+                            engine.
+                        </p>
+                        <ul class="project-features">
+                            <li>Translates SQL schemas and schema field types natively.</li>
+                            <li>Ingests DDL files and database SQL text dumps.</li>
+                            <li>Features administrative portal & system activity reports.</li>
+                            <li>Integrates JWT authorization for secure REST endpoints.</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Flask-RESTful</span>
+                            <span class="tech-tag">Flask-JWT</span>
+                            <span class="tech-tag">SQLAlchemy</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">OpenPyXL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sql-migrator-team/SQL-MIGRATOR" target="_blank"
+                                rel="noopener noreferrer" class="project-link">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                                Code Repository
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Diagram Visual -->
+                    <div class="project-visual">
+                        <div class="db-migration-flow">
+                            <div class="flow-node">
+                                <div class="mono-tag" style="font-size: 0.6rem; margin-bottom: 0.25rem;">SOURCE</div>
+                                MySQL Dump (.sql)
+                            </div>
+                            <div class="flow-arrow">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                                    <polyline points="19 12 12 19 5 12"></polyline>
+                                </svg>
+                            </div>
+                            <div class="flow-node highlight">
+                                <div class="mono-tag"
+                                    style="font-size: 0.6rem; margin-bottom: 0.25rem; color: var(--text-pure);">FLASK
+                                    CONVERTER</div>
+                                SQLAlchemy Schema Map
+                            </div>
+                            <div class="flow-arrow">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                                    <polyline points="19 12 12 19 5 12"></polyline>
+                                </svg>
+                            </div>
+                            <div class="flow-node">
+                                <div class="mono-tag" style="font-size: 0.6rem; margin-bottom: 0.25rem;">TARGET</div>
+                                PostgreSQL Database
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2: Bus Time Management -->
+                <article class="project-card reveal">
+                    <div class="project-info">
+                        <div class="project-featured">UTILITY SYSTEM</div>
+                        <h3 class="project-title">College Bus Time Management System</h3>
+                        <p class="project-desc">
+                            A scheduling application designed to streamline transit coordinate records. It manages
+                            transportation networks, timing profiles, routing configurations, and vehicle details within
+                            a college ecosystem.
+                            The system integrates relational mapping tables to match student enrollments with bus
+                            schedules, preventing data duplication and database query timeouts.
+                        </p>
+                        <ul class="project-features">
+                            <li>Maintains relational databases using primary and foreign key mapping rules.</li>
+                            <li>Renders schedules and records with custom JavaFX controller classes.</li>
+                            <li>Handles transaction constraints to secure critical schedule changes.</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">JavaFX</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">SQL DDL/DML</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Jishnu-JSK" target="_blank" rel="noopener noreferrer"
+                                class="project-link">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                                Code Repository
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- JavaFX Mockup Visual -->
+                    <div class="project-visual">
+                        <div class="java-fx-box">
+                            <div class="java-fx-title">BusScheduleUI.fxml</div>
+                            <div class="java-fx-ui">
+                                <div class="java-fx-bar"></div>
+                                <div class="java-fx-bar fill"></div>
+                                <div class="java-fx-grid">
+                                    <div class="java-fx-cell">ROUTE 1</div>
+                                    <div class="java-fx-cell">ROUTE 2</div>
+                                    <div class="java-fx-cell">ROUTE 3</div>
+                                    <div class="java-fx-cell"
+                                        style="color: var(--text-primary); border-color: var(--border-light);">08:15
+                                    </div>
+                                    <div class="java-fx-cell"
+                                        style="color: var(--text-primary); border-color: var(--border-light);">08:30
+                                    </div>
+                                    <div class="java-fx-cell"
+                                        style="color: var(--text-primary); border-color: var(--border-light);">09:00
+                                    </div>
+                                </div>
+                                <div class="java-fx-bar"
+                                    style="width: 40%; align-self: flex-end; margin-top: 0.5rem; height: 12px; background-color: var(--text-primary);">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3: Nocturne -->
+                <article class="project-card reveal">
+                    <div class="project-info">
+                        <div class="project-featured">LANGUAGE TOOL</div>
+                        <h3 class="project-title">Nocturne — Russian Vocabulary Explorer</h3>
+                        <p class="project-desc">
+                            A minimalist web app for learning Russian, backed by a 9,000+ word dataset.
+                            Features instant bilingual search, flashcard-based practice with answer
+                            verification, a daily Word of the Day, and keyboard-driven navigation
+                            for efficient drilling sessions.
+                        </p>
+                        <ul class="project-features">
+                            <li>Card-based vocabulary browser with real-time search.</li>
+                            <li>Practice mode with typed answers and random card support.</li>
+                            <li>Deterministic daily word via date-seeded randomization.</li>
+                            <li>Arrow key and Enter shortcuts for fast navigation.</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Jinja2</span>
+                            <span class="tech-tag">HTML/CSS/JS</span>
+                            <span class="tech-tag">Excel</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Jishnu-JSK/nocturne-ru-vocabulary-trainer" target="_blank"
+                                rel="noopener noreferrer" class="project-link">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                    </path>
+                                </svg>
+                                Code Repository
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Nocturne App Mockup Visual -->
+                    <div class="project-visual">
+                        <div class="noc-app-mockup">
+                            <!-- App navbar -->
+                            <div class="noc-app-nav">
+                                <span class="noc-app-logo">NOCTURNE</span>
+                                <div class="noc-app-nav-items">
+                                    <span>Vocabulary</span>
+                                    <span class="noc-app-nav-active">Practice</span>
+                                </div>
+                            </div>
+
+                            <!-- Search bar -->
+                            <div class="noc-app-search">
+                                <span>Search...</span>
+                            </div>
+
+                            <!-- Word of the Day block -->
+                            <div class="noc-app-wotd">
+                                <div class="noc-app-section-label">✦ WORD OF THE DAY</div>
+                                <div class="noc-app-wotd-row">
+                                    <div class="noc-app-wotd-russian">ночь</div>
+                                    <div class="noc-app-wotd-english">night</div>
+                                </div>
+                                <div class="noc-app-wotd-action">Practice →</div>
+                            </div>
+
+                            <!-- Divider -->
+                            <div class="noc-app-divider"></div>
+
+                            <!-- Vocabulary list -->
+                            <div class="noc-app-section-label">VOCABULARY</div>
+                            <div class="noc-app-vocab">
+                                <div class="noc-app-vocab-row">
+                                    <span class="noc-app-ru">в (во)</span>
+                                    <span class="noc-app-en">(+pr) in; into</span>
+                                </div>
+                                <div class="noc-app-vocab-row">
+                                    <span class="noc-app-ru">она</span>
+                                    <span class="noc-app-en">she</span>
+                                </div>
+                                <div class="noc-app-vocab-row">
+                                    <span class="noc-app-ru">спасибо</span>
+                                    <span class="noc-app-en">thank you</span>
+                                </div>
+                            </div>
+
+                            <!-- Divider -->
+                            <div class="noc-app-divider"></div>
+
+                            <!-- Practice card -->
+                            <div class="noc-app-section-label">PRACTICE</div>
+                            <div class="noc-app-practice">
+                                <div class="noc-app-practice-word">спасибо</div>
+                                <div class="noc-app-practice-input"></div>
+                                <div class="noc-app-practice-footer">
+                                    <span class="noc-app-practice-btn">Check →</span>
+                                    <span class="noc-app-practice-count">692 / 9196</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience / Internship Section -->
+    <section class="section" id="experience">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Experience</h2>
+                <p>My background in real-world environments and developer structures.</p>
+            </div>
+
+            <div class="experience-list">
+
+                <!-- DITS Internship -->
+                <div class="experience-item reveal">
+                    <div class="experience-dot"></div>
+                    <div class="experience-header">
+                        <div class="experience-title-group">
+                            <h3>Software Development Intern</h3>
+                            <div class="experience-company">Dinesh Information Technology Systems (DITS), Kannur</div>
+                        </div>
+                        <div class="experience-date">Jun 2026 · 2 weeks</div>
+                    </div>
+                    <ul class="experience-desc">
+                        <li>Built a full-stack SQL Database Migration Tool using Python, Flask, MySQL, and PostgreSQL to
+                            transfer data across database systems while maintaining integrity and consistency.</li>
+                        <li>Worked on frontend development using HTML, CSS, and JavaScript — improving form layouts,
+                            input validation, and interface usability of the migration dashboard.</li>
+                        <li>Diagnosed and resolved Cross-Origin Resource Sharing (CORS) issues by configuring
+                            Flask-CORS, enabling successful frontend-backend API communication.</li>
+                        <li>Executed a PostgreSQL-to-MySQL migration workflow on test tables and verified results via
+                            terminal, gaining hands-on exposure to API integration, debugging, and end-to-end testing.
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Neovent Internship -->
+                <div class="experience-item reveal">
+                    <div class="experience-dot"></div>
+                    <div class="experience-header">
+                        <div class="experience-title-group">
+                            <h3>Python for Data Science Intern</h3>
+                            <div class="experience-company">Neovent Innovation</div>
+                        </div>
+                        <div class="experience-date">June 2025 · 2 weeks</div>
+                    </div>
+                    <ul class="experience-desc">
+                        <li>Performed exploratory data analysis on structured datasets using Python and Jupyter
+                            Notebook.</li>
+                        <li>Created data visualisations to identify trends and patterns within datasets using Matplotlib
+                            and Pandas.</li>
+                        <li>Applied core data science workflows including data cleaning, transformation, and
+                            summarisation.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section" id="education">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Education</h2>
+                <p>Academic profile and database engineering focus.</p>
+            </div>
+
+            <div class="education-grid">
+                <div class="education-card reveal">
+                    <div class="education-info">
+                        <h3>BTech in Data Science & Computer Science</h3>
+                        <div class="education-institution">St Thomas College of Engineering & Technology, Kannur</div>
+                    </div>
+                    <div class="education-date">
+                        <div>2024 - 2028</div>
+                        <div class="mono-tag" style="font-size: 0.7rem; margin-top: 0.25rem;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Contact</h2>
+                <p>Let's build something useful.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <p class="contact-pitch">
+                        I am open to internships, software development roles, data tooling contracts, and interesting
+                        collaborations. If you want to discuss a project, query migration workflows, or review code
+                        patterns, reach out.
+                    </p>
+
+                    <div class="contact-channels">
+                        <div class="contact-channel-item">
+                            <span class="contact-channel-icon">Email</span>
+                            <!-- Placeholder email format requested by user -->
+                            <a href="mailto:sureshjishnu6@gmail.com"
+                                class="contact-channel-link">sureshjishnu6@gmail.com</a>
+                        </div>
+                        <div class="contact-channel-item">
+                            <span class="contact-channel-icon">GitHub</span>
+                            <a href="https://github.com/Jishnu-JSK" target="_blank" rel="noopener noreferrer"
+                                class="contact-channel-link">github.com/Jishnu-JSK</a>
+                        </div>
+                        <div class="contact-channel-item">
+                            <span class="contact-channel-icon">LinkedIn</span>
+                            <!-- Placeholder LinkedIn format requested by user -->
+                            <a href="https://linkedin.com/in/code104" target="_blank" rel="noopener noreferrer"
+                                class="contact-channel-link">linkedin.com/in/code104</a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form reveal" id="contact-form" action="#" method="POST"
+                    style="transition-delay: 0.2s;">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="form-input" required
+                            placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-input" required
+                            placeholder="Enter your email address">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" class="form-input" required
+                            placeholder="Describe the workspace or query..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    <div class="form-feedback" id="form-feedback"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-copy">
+                &copy; 2026 Jishnu Suresh. code_104
+            </div>
+            <ul class="footer-links">
+                <li><a href="https://github.com/Jishnu-JSK" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><a href="https://linkedin.com/in/code104" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                </li>
+                <li><a href="mailto:jishnusuresh.dev@gmail.com">Email</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
